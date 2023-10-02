@@ -1,0 +1,53 @@
+/* 
+YUM-YUM_DOM Tutorial structure
+What the DOM is
+Methods to Select Elements in the DOM
+Styling an Elements
+Creating Elements
+Adding ElementsModify text 
+Modify Elements Attributes & Class
+Remove an Element
+How to Treverse the DOM
+How to Manipulate the DOM
+Event Handling
+Event Listeners
+Event Propagation
+Event Delegation
+
+
+What the DOM is 
+DOM == Document Object Model (Built in Object)
+
+Use it to Manipulate Content , Style and Structure
+
+Is one of the most unique and useful tools in Javascript
+
+You can think of it as a TREE 
+
+                        DOCUMENT
+                           |
+                           |
+                        ELE MENT<HTML>               
+        |                                                |
+        |                                            ELEMENT<BODY>
+    ELEMENT<HEAD>                                        |
+                                           ________                _______    
+    ELEMENT<TITLE>                            |                       |
+    TEXT "THIS IS SOME TEXT"              ELEMENT<p>              ELEMENT<H1>
+                                            TEXT                   TEXT "MYHEADER"
+                                        "SOME TEXT in paragraph"
+
+
+
+Above is a Dom TREE and its NODES...the DOM is a property of the WINDOW object which is the global top-level element that represents a TAB in the browser
+NODES have a parent child relationship.
+
+Top most node is called the root node
+
+
+
+*/
+
+
+
+ 
