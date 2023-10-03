@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+   <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .div2 {
+            background-color: #a39696;
+            display: flex;
+            flex-direction: column; /* Stack children vertically */
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-size: 24px;
+        }
+
+        .div1 {
+            background-color: #ccc;
+            display: flex;
+            flex-direction: column; /* Stack children vertically */
+            justify-content: flex-start; /* Align items to the top */
+            align-items: center;
+            width: 200px; /* Adjust the width as needed */
+            height: 200px; /* Adjust the height as needed */
+            font-size: 36px;
+        }
+
+        button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+<body>
+    
+        <div class="div2">
+        2
+            <div class="div1">
+            1
+            <button>Click</button>
+            </div>
+        
+        </div>    
+    
+
+
+</body>
+</html>
