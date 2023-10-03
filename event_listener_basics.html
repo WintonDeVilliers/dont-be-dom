@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        #main-heading {
+            margin-bottom: 20px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .boxes {
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            padding: 20px;
+            width: 30%; /* Adjust the width as needed */
+            text-align: center;
+        }
+
+        button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+<body>
+
+    <h1 id="main-heading">EVENT LISTENERS</h1>
+
+    <div class="container">
+        <div class="boxes box-1">
+            <h1 id="heading">EXAMPLE 1</h1>
+            <p>On click event directly inserted into HTML </p>
+            <button onclick="alert('I lOVE JAVASCRIPT')">Enter</button>
+        </div>
+
+        <div class="boxes box-2">
+            <h1 id="heading">EXAMPLE 2</h1>
+            <p>On click event via function in js script</p>
+            <button class="btn-2">Enter</button>
+        </div>
+
+        <div class="boxes box-3">
+            <h1 id="heading">EXAMPLE 3</h1>
+            <p>Change BG color on mouseover</p>
+            <button>Enter</button>
+        </div>
+    
+    </div>
+    
+</body>
+<script src="app.js"></script>
+</html>
