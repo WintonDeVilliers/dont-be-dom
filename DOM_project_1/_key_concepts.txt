@@ -1,0 +1,8 @@
+QUOTE GENERATOR 
+
+Key Concepts for this project:
+    -document.querySelector
+    -addEventListener
+    -Math Object
+    -innerText
+    

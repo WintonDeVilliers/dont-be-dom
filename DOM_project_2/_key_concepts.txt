@@ -1,0 +1,9 @@
+
+CREATING A MODAL
+
+Key Concepts for this project
+    -document.getElementById
+    -addEventListener
+    -e.target
+    -CSS styling through javascript
+    -CSS Animation 
