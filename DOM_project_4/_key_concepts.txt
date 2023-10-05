@@ -1,0 +1,8 @@
+Key Concepts for this project:
+    -document.querySelctor
+    -document.getElementById
+    -addEventListener
+    -if (conditionals)
+    -toString methods
+    -setInterval
+    -innerHtml

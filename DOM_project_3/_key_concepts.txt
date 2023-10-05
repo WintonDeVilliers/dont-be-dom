@@ -1,0 +1,8 @@
+ACCORDION
+
+KEY CONCEPTS FOR THIS PROJECT:
+    -document.getElementByClassName
+    -addEventListener
+    -for loop (using conditional to treverse "container" /DOM ELEMENT)
+    -this key word
+    -classList.toggle
